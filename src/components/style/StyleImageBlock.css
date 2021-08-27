@@ -1,0 +1,11 @@
+.styleImageBlock {
+    width: 510px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.styleImageBlock>img {
+    width: 480px;
+}

@@ -1,0 +1,89 @@
+.profileManageInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+}
+.profileManageInfo>.MuiChip-root{
+ position: absolute;
+ bottom: 50px;
+ right: -100px;
+}
+
+.profileManageInfo__pic {
+    background: linear-gradient(13deg, rgba(249, 148, 43, 1) 0%, rgba(244, 47, 23, 1) 54%, rgba(160, 10, 142, 1) 100%);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileManageInfo__pic>img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.profileManageInfo>h5 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.profileManageInfo__linkwrapper {
+    display: flex;
+    margin-top: 30px;
+}
+
+.profileManageInfo__linkwrapper>svg {
+    fill: #FC8844;
+    margin-top: 3px;
+}
+
+.profileManageInfo__linkwrapper>p {
+    margin-left: 5px;
+    color: #444444;
+}
+
+.profileManageInfo__linkwrapper>p>span {
+    color: #FC8844;
+}
+
+.profileManageInfo__buttonwrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 150px;
+    align-items: center;
+}
+
+.profileManageInfo__buttonwrapper>a {
+    color: #FC8844;
+    border: 1px solid #FC8844;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+    
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileManageInfo__buttonwrapper>a>svg {
+    fill: #FC8844;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+#eye{
+    width: 30px;
+}

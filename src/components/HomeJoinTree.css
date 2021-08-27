@@ -1,0 +1,42 @@
+.homeJoinTree {
+    padding-bottom: 60px;
+    border-bottom: 1px solid #dddddd;
+}
+.homeJoinTree>div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.homeJoinTree>div>a {
+    background-color: #FA622F;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    width:200px;
+ justify-self: center;
+ text-align:center;
+}
+.homeJoinTree>div>a:hover {
+    background-color: #f14c15;
+}
+
+.homeJoinTree__header{
+    padding-left: 100px;
+    padding-top: 50px;
+    width:50%;
+}
+
+.homeJoinTree__header>h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.homeJoinTree__header>p{
+    font-size: 20px;
+    font-weight: 300;
+}

@@ -1,0 +1,15 @@
+.styleHeadingBlock {
+    position: relative;
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #0a5f07;
+    margin-bottom: 60px;
+}
+
+.styleHeadingBlock>h2 {
+    text-transform: uppercase;
+}

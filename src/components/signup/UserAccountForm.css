@@ -1,0 +1,23 @@
+.userAccountForm {
+    display: flex;
+}
+
+.FaCheckCircle {
+    color: rgb(8, 190, 8);
+}
+
+.FaTimesCircle {
+    color: rgb(190, 8, 8);
+}
+
+.MuiTextField-root>.EmailTextField.success {
+    border: 1px solid rgb(8, 190, 8) !important;
+}
+
+.MuiTextField-root>.EmailTextField.error {
+    border: 1px solid rgb(190, 8, 8)!important;
+}
+
+.MuiFilledInput-underline::after {
+    border-bottom: none !important;
+}

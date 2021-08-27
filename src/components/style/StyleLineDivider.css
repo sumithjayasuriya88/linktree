@@ -1,0 +1,11 @@
+.styleLineDivider {
+    width: 510px;
+    height: 50px;
+    position: relative;
+}
+
+.StyleLineDivider__line {
+    width: 510px;
+    height: 2px;
+    background-color: #D5A6BD;
+}

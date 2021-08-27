@@ -1,0 +1,117 @@
+.signupPage {
+    display: flex;
+    position: relative;
+}
+
+.signupPage__left {
+    height: 100vh;
+    max-height: 100hv;
+    flex: 2;
+    overflow-y: scroll;
+    padding: 0 40px;
+}
+
+.signupPage__left>a>img {
+    height: 20px;
+    margin-top: 30px;
+}
+
+.signupPage__right {
+    height: 100vh;
+    max-height: 100vh;
+    flex: 1;
+}
+
+.signupPage__right>img {
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.signupPage__card {
+    padding: 50px 120px;
+}
+
+.signupPage__card>h1 {
+    color: rgb(48, 48, 48);
+}
+
+.signupPage__card>p {
+    color: rgb(84, 84, 84);
+}
+
+.alreadyaccount__linkwrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.signupPage__card>.alreadyaccount__linkwrap>a {
+    color: rgb(84, 84, 84);
+    text-align: center;
+    width: 100%;
+}
+
+.signupPage__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.signupPage__form>button {
+    background-color: #FA5E2B;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.signupPage__form>button:hover {
+    background-color: #f14e18;
+     
+}
+
+.TextField {
+    border: 1px solid red;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+.MuiFilledInput-root {
+    border-radius: none !important;
+    border-radius: 10px !important;
+    background: #F5F6F8 !important;
+    margin-bottom: 20px;
+    border: none !important;
+}
+
+.MuiFilledInput-underline:before {
+    background: transparent;
+    border: none !important;
+}
+
+.form_termsWrapper {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(84, 83, 83);
+    font-weight: 600;
+}
+
+.form_termsWrapper>p>a {
+    color: rgb(44, 44, 44);
+}
+
+.form_termsWrapper>input {
+    margin-right: 10px;
+}

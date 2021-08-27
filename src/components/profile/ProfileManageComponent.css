@@ -1,0 +1,27 @@
+.profileManageComponent {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.profileManageComponent__info>h4 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.profileManageComponent__info>p {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.profileManageComponent>button {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #33C1FF;
+    border-radius: 5px;
+    color: #33C1FF;
+    padding: 5px 10px;
+}

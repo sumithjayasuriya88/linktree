@@ -1,0 +1,17 @@
+.styleEditButtons {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #EBECED;
+}
+
+.styleEditButtons>button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: gray;
+}

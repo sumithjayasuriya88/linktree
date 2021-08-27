@@ -1,0 +1,25 @@
+.homeFeatured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+.homeFeatured>h5{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.homeFeatured__container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.homeFeatured__container>img {
+    height: 30px;
+    object-fit: contain;
+    background-color: #F5F7F8;
+    padding: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,48 @@
+.styleIconsBlock {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 510px;
+}
+
+.styleIconsBlock__iconContainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #221F1F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner_icon {
+    padding: 0 10px;
+}
+
+.styleIconsBlock__addicons {
+    background-color: #2EDA6B;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.styleIconsBlock__moveicons {
+    background-color: #1FBBFF;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.styleIconsBlock__moveiconsSort {
+    transform: rotate(90deg);
+    margin-right: 10px;
+}

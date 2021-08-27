@@ -1,0 +1,45 @@
+.homeFeatures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 150px;
+    align-items: center;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.homeFeatures__cardholder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.homeFeatures__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.homeFeatures__card>h4{
+    padding:20px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size:25px;
+    text-align: center;
+}
+
+.homeFeatures>a {
+    border: 1px solid #FA622F;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #FA622F;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.homeFeatures>a:hover {
+    background-color: #FA622F;
+    color: white;
+}

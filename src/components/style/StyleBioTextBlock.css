@@ -1,0 +1,13 @@
+.styleBioTextBlock {
+    background-color: #ce0f6f;
+    min-height: 50px;
+    width: 510px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.styleBioTextBlock>p {
+    padding-left: 70px;
+    padding-right: 70px;
+}

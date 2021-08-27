@@ -1,0 +1,23 @@
+.MenuSignUpOption {
+    padding: 10px;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: #FA622F;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.MenuSignUpOption>a {
+    line-height: 30px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.MenuSignUpOption:hover {
+    background-color: #c4481e;
+}

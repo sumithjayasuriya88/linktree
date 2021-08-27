@@ -1,0 +1,59 @@
+.loginPage {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginPage__head {
+    display: flex;
+    width: 100%;
+}
+
+.loginPage__head>a>img {
+    height: 25px;
+    align-self: flex-start;
+}
+
+.loginPage__card {
+    width: 500px;
+    margin-top: 50px;
+    border: 1px solid #DADEE0;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginPage__card>h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.loginPage__card>form>button {
+    background-color: #FB7744;
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-weight: 700;
+}
+
+.loginPage__card>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginPage__card>form>a {
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.loginPage__card>p {
+    text-align: center;
+}

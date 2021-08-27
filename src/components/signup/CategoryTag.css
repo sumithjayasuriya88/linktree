@@ -1,0 +1,31 @@
+.categoryTag {
+    background-color: #DADEE0;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 3px 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #3A464B;
+}
+
+.categoryTag.selected {
+    background-color: #7551E9;
+    color: #fff;
+}
+
+.categoryTag.disabled {
+    background-color: #ebebeb;
+    color: rgb(177, 177, 177);
+}
+
+.FaTimesCircleTag {
+    color: #8A86E5;
+}
+
+.categoryTag>span {
+    margin-right: 10px;
+}

@@ -1,0 +1,98 @@
+.homeMobilephone {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeMobilephone__outer {
+    width: 350px;
+    height: 622px;
+    background: linear-gradient(153deg, #FA622F 0%, #FDBF67 54%, rgb(243, 193, 10) 100%);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid black;
+    flex-direction: column;
+    position: relative;
+}
+
+.homeMobilephone__profile {
+    position: absolute;
+    top: 30px;
+}
+
+.homeMobilephone__profile>img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.mobileLinkContainer {
+    margin-top: 60px;
+}
+
+.homeMobilephone__linkplace {
+    height: 40px;
+    width: 270px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.homeMobilephone__socialconatiner {
+    display: flex;
+    justify-content: space-around;
+    width: 220px;
+}
+
+.homeMobilephone__socialconatiner>img {
+    width: 25px;
+    object-fit: contain;
+    fill: #FFCA08;
+}
+
+.mobilephone_dotline {
+    height: 100px;
+    width: 1px;
+    border-left: 2px dashed #FD974B;
+}
+
+.homeMobilephone__linkconatiner {
+    display: flex;
+    border: 1px solid #FD974B;
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo {
+    height: 20px;
+    object-fit: contain;
+    margin-right: 30px;
+}
+
+.homeMobilephone__linkconatiner>p {
+    font-size: 25px;
+    color: #575757;
+}
+
+.homeMobilephone__linkconatiner>input {
+    outline: none;
+    border: none;
+    font-size: 25px;
+    color: #575757;
+    width: 200px
+}
+
+.homeMobilephone__linkconatiner>input::placeholder {
+    color: #FD974B;
+}
+
+#arrow {
+    height: 40px;
+    object-fit: contain;
+}

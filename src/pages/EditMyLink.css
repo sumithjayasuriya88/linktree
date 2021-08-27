@@ -1,0 +1,83 @@
+.editMyLink{
+    display: flex;
+    justify-content: center;
+}
+
+.modelBody{
+    background-color: #fdfbfb;
+    margin-top: 100px;
+    width: 600px;
+    display: flex;    
+    flex-direction: column;
+    margin: 100px auto;
+    border-radius: 5px;
+    outline: none;
+}
+
+.model__header{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 1px solid #dddddd;
+}
+.model__header>h2{
+    color:#222222;
+    font-size: 20px;
+    font-weight: 500;
+}
+.model__header>button{
+   background: none;
+   border:none;
+   outline: none;
+   color:#6b6969;
+}
+.modelBody>form{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
+    padding: 20px 10px;
+    align-items: center;
+}
+ 
+.modelBody>form>span{
+    flex:0.1;
+    margin-right: 10px;
+    color:#969696;
+}
+.modelBody>form>input{
+    flex:0.9;
+    padding: 7px;
+    border:1px solid #dddddd;
+    border-radius: 5px;
+    outline: none;
+    color:#505050;
+    font-weight: 600;
+}
+
+.model_-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.close__btn{
+    background-color: #fdfbfb;
+    border: 1px solid #969696;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    color:#595959;
+    cursor: pointer;
+}
+
+.save__btn{
+    background-color: #1fbbff;
+    border: 1px solid #1fbbff;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    color:#ffffff;
+    cursor: pointer;
+}

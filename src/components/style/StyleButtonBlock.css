@@ -1,0 +1,26 @@
+.styleButtonBlock {
+    position: relative;
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #e1cce6;
+}
+
+.styleButtonBlock>a {
+    min-width: 400px;
+    background-color: rgb(247, 247, 245);
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    border: 1px solid #df8ff3;
+}

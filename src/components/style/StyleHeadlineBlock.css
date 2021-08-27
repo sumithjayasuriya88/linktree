@@ -1,0 +1,22 @@
+.styleHeadlineBlock {
+    background-color: rgb(173, 27, 27);
+    width: 510px;
+    margin-bottom: 35px;
+    text-align: center;
+    position: relative;
+}
+
+.styleHeadlineBlock>h1 {
+    font-size: 45px;
+    padding: 20px 20px;
+}
+
+.styleHeadlineBlock>h2 {
+    font-size: 35px;
+    padding: 20px 20px;
+}
+
+.styleHeadlineBlock>h3 {
+    font-size: 25px;
+    padding: 20px 20px;
+}

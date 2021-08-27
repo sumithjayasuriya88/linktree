@@ -1,0 +1,42 @@
+.styleMobileView {
+    margin-top: 30px;
+}
+
+.mobileview__outer {
+    background-color: #8FCE00;
+    width: 510px;
+    min-height: 700px;
+    border-radius: 50px;
+    border: 15px solid #EBECED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.mobileview__outer>.mobileview__outerSpeekercomp {
+    position: absolute;
+    top: 0;
+    height: 20px;
+    width: 250px;
+    background-color: #EBECED;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobileview__outer>.mobileview__outerSpeekercomp>div {
+    height: 10px;
+    width: 120px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.mobile__inner {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

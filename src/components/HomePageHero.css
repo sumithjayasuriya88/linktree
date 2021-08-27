@@ -1,0 +1,44 @@
+.homePageHero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.homePageHero>h1 {
+    font-size: 50px;
+    font-weight: 00;
+    margin-bottom: 20px;
+}
+
+.homePageHero>h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: darkgray;
+    margin-bottom: 60px;
+}
+
+.homePageHero>a {
+    background-color: #FA622F;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.homePageHero>a:hover {
+    background-color: #c4481e;
+}
+
+.homePageHero>p {
+    color: #414141;
+}
+
+.homePageHero>p>span {
+    cursor: pointer;
+    color: #543aaa;
+    margin-left: 10px;
+}

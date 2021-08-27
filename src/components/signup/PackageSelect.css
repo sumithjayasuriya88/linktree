@@ -1,0 +1,30 @@
+.packageSelect {
+    cursor: pointer;
+    border: 3px solid #ECEEF0;
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.packageSelect.active {
+    border: 3px solid #D5C3FF;
+}
+
+.packageSelect__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.packageSelect__body {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.packageSelect__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: underline;
+}

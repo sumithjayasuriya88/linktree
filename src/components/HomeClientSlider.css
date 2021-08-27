@@ -1,0 +1,29 @@
+.homeClientSlider {
+    display: flex;
+    overflow-x: scroll;
+    padding-left: 100px;
+}
+
+.homeClientSlider__card{
+    padding: 50px;
+}
+.homeClientSlider__cardBody>img {
+    object-fit: cover;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.homeClientSlider__cardInfo { 
+    display: flex;
+}
+
+.homeClientSlider__cardInfo>img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.homeClientSlider::-webkit-scrollbar {
+    display: none;
+}

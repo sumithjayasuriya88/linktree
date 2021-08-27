@@ -1,0 +1,24 @@
+.profileStylePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileStylePage__topButtonwrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.profileStylePage__topButtonwrapper>a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.profileStylePage__topButtonwrapper>a:nth-child(2) {
+    color: rgb(13, 182, 225)
+}

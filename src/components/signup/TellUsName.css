@@ -1,0 +1,49 @@
+.tellUsName {
+    display: flex;
+}
+
+.signupPage__leftTellNameCard {
+    padding: 50px 120px;
+}
+
+.signupPage__leftTellNameCard>h1 {
+    margin-bottom: 50px;
+}
+
+.tellus__namerwapper>h4 {
+    font-weight: 400;
+    color: rgb(79, 79, 79);
+}
+
+.MuiTextField-root {
+    width: 100%;
+}
+
+.tellus__categorywarepper>div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.tellus__categoryConatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.signupPage__leftTellNameCard>button {
+    background-color: #FA5E2B;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.signupPage__leftTellNameCard>button:hover {
+    background-color: #f14e18;
+}

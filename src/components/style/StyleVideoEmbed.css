@@ -1,0 +1,10 @@
+.styleVideoEmbed {
+    width: 510px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.styleVideoEmbed>iFrame {
+    width: 510px;
+    height: 350px;
+}

@@ -1,0 +1,31 @@
+.headerOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+.headerOption>a {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    
+    justify-content: space-around;
+    color: gray;
+    font-size: 12px;
+}
+
+.headerOption>.MuiSvgIcon-root {
+    font-size: 15px;
+}
+
+.headerOption>a>p {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.active>a>svg { fill: #FDAB51 ; }
+.active>a>p { color: #FDAB51 ; }

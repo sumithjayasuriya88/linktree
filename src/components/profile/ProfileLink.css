@@ -1,0 +1,105 @@
+.profileLink_card {
+    border: 1px #ddd solid;
+    width: 730px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.MuiSvgIcon-root {
+    color: grey;
+}
+
+.profileLink__cardHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.profileLink__cardHeaderDragbutton {
+    display: flex;
+    color: #1FBBFF;
+    font-weight: 600;
+    align-items: center;
+}
+
+.profileLink__cardHeaderDragbutton>.MuiSvgIcon-root {
+    color: #1FBBFF;
+}
+
+.info__bottom>div>.MuiSvgIcon-root {
+    color: #646464;
+}
+
+.profileLink__cardBody {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.profileLink__cardBody>img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.profileLink__cardBodyInformation {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.info__top {
+    display: flex;
+    justify-content: space-between;   
+    padding: 10px;
+    color: #ddd;
+}
+
+.info__top>svg {
+    color: #A6ABAD;
+}
+
+.info__topDetails>h2{
+    color:#313131;
+    font-size: 18px;
+}
+
+.info__topDetails>p{
+    color:#7c7c7c;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.info__dateWrapper>span{
+    color: #7c7c7c;
+    font-size: 12px;
+}
+
+.info__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.info__bottom>div {
+    flex: 0.6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__bottom>button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #A6ABAD;
+    cursor: pointer;
+}
+
+.info__bottom>div>button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #A6ABAD;
+    cursor: pointer;
+}
